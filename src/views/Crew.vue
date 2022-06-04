@@ -163,7 +163,7 @@ const jump = (index: number) => {
 
           <div
             v-if="activeSlide === 2"
-            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3"
           >
             <img
               src="../assets/crew/image-anousheh-ansari.png"
@@ -174,7 +174,7 @@ const jump = (index: number) => {
 
           <div
             v-if="activeSlide === 3"
-            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3"
           >
             <img
               src="../assets/crew/image-victor-glover.png"
@@ -185,7 +185,7 @@ const jump = (index: number) => {
 
           <div
             v-if="activeSlide === 4"
-            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3"
           >
             <img
               src="../assets/crew/image-mark-shuttleworth.png"
