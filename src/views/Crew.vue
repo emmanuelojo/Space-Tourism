@@ -24,7 +24,7 @@ const jump = (index: number) => {
     <Navbar />
     <div class="p-4 md:p-8 lg:px-20 mt-6">
       <div class="">
-        <p class="text-2xl">
+        <p class="text-xl md:text-2xl lg:text-3xl">
           <span class="mr-4 text-gray-300"> 02 </span> MEET YOUR CREW
         </p>
       </div>
@@ -150,7 +150,10 @@ const jump = (index: number) => {
         </div>
 
         <div class="mt-10 md:mt-0 order-1 lg:order-2">
-          <div v-if="activeSlide === 1" class="flex justify-center mx-auto">
+          <div
+            v-if="activeSlide === 1"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3"
+          >
             <img
               src="../assets/crew/image-douglas-hurley.png"
               alt="Crew Image"
@@ -158,7 +161,10 @@ const jump = (index: number) => {
             />
           </div>
 
-          <div v-if="activeSlide === 2" class="flex justify-center mx-auto">
+          <div
+            v-if="activeSlide === 2"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+          >
             <img
               src="../assets/crew/image-anousheh-ansari.png"
               alt="Crew Image"
@@ -166,7 +172,10 @@ const jump = (index: number) => {
             />
           </div>
 
-          <div v-if="activeSlide === 3" class="flex justify-center mx-auto">
+          <div
+            v-if="activeSlide === 3"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+          >
             <img
               src="../assets/crew/image-victor-glover.png"
               alt="Crew Image"
@@ -174,7 +183,10 @@ const jump = (index: number) => {
             />
           </div>
 
-          <div v-if="activeSlide === 4" class="flex justify-center mx-auto">
+          <div
+            v-if="activeSlide === 4"
+            class="flex justify-center mx-auto w-2/3 md:w-2/5 lg:w-2/3 border border-red-500"
+          >
             <img
               src="../assets/crew/image-mark-shuttleworth.png"
               alt="Crew Image"

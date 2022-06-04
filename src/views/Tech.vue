@@ -19,7 +19,7 @@ const activeTab = ref(1);
 
     <div class="p-4 md:p-8 lg:px-20 mt-6">
       <div class="">
-        <p class="text-2xl">
+        <p class="text-xl md:text-2xl lg:text-3xl">
           <span class="text-gray-300 mr-4"> 03 </span> SPACE LAUNCH 101
         </p>
       </div>

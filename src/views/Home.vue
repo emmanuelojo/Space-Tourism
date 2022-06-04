@@ -21,11 +21,13 @@ import Navbar from "../components/Navbar.vue";
         <p class="text-7xl text-center uppercase font-light lg:text-left">
           Space
         </p>
-        <p class="mt-5 md:mx-40 lg:mx-1 text-center lg:grid lg:text-left">
+        <p class="mt-5 md:mx-40 lg:mx-1 text-center lg:grid md:text-left">
           <span>
             Let's face it; if you want to go to space, you might as well</span
           >
-          <span>genuinely go to outer space and not hover kind of on the</span>
+          <span class="ml-1 lg:ml-0"
+            >genuinely go to outer space and not hover kind of on the</span
+          >
           <span>
             edge of it. Well sit back, and relax because we'll give you
           </span>

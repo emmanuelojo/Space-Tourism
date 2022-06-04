@@ -36,7 +36,9 @@ const tabs = [
     <Navbar />
     <div class="md:px-8 lg:mt-0">
       <div class="px-4 pt-10">
-        <p><span class=""> 01 </span> PICK YOUR DESTINATION</p>
+        <p class="text-xl md:text-2xl lg:text-3xl">
+          <span> 01 </span> PICK YOUR DESTINATION
+        </p>
       </div>
 
       <div class="md:mt-10 grid gap-10 md:grid-cols-2 md:items-center">
